@@ -1,0 +1,31 @@
+{
+    "name": "config-saver",
+    "version": "1.0.0",
+    "description": "cz config saver",
+    "main": "index.js",
+    "scripts": {
+        "start": "node dist/app.js",
+        "dev": "nodemon src/app.ts",
+        "build": "tsc -p .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vking34/cz-config-saver.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/exceljs": "^1.3.0",
+        "@types/mongoose": "^5.7.36",
+        "@types/node": "^14.14.14",
+        "nodemon": "^2.0.6",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.1.3"
+    },
+    "dependencies": {
+        "exceljs": "^4.2.0",
+        "mongoose": "^5.10.13"
+    }
+}
